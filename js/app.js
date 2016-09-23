@@ -1,1 +1,4 @@
-var app = angular.module('fiveWeightAdmin', ['ngRoute']);
+var app = angular.module('shedsForSale', ['ngRoute']);
+
+
+app.constant('server', 'https://localhost:3000');
