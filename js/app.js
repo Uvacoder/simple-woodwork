@@ -1,4 +1,1 @@
-var app = angular.module('shedsForSale', ['ngRoute']);
-
-
-app.constant('server', 'https://localhost:3000');
+var app = angular.module('tablesAndDoors', ['ngRoute']);

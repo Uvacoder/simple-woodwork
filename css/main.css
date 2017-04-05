@@ -1,0 +1,190 @@
+html {
+  height: 100%;
+  width: 100%;
+  /*position: relative;*/
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  /*border: 2px solid green;*/
+}
+
+body {
+  min-height: 100%;
+  /*border: 2px solid orange;*/
+}
+
+.container-fluid,
+.container,
+.row {
+  height: 100%;
+  /*float: left;*/
+  /*width: 100%;*/
+}
+
+.mainRow {
+  height: 100%;
+}
+
+main.home {
+  float: left;
+  padding: 0;
+  height: 100vh;
+  background-image: url('../media/backgroundTwist-min.png');
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+nav.head {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(35,14,0,.9);
+  height: 70px;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #1e0c00;
+}
+
+nav * {
+  display: inline;
+}
+
+nav ul {
+  height: 60px;
+}
+
+nav ul li {
+  height: 70px;
+  text-align: center;
+  position: relative;
+}
+
+nav ul li:last-child {
+  border-right: none;
+}
+
+a.navA {
+  display: block;
+  color: #f3ebe5;
+  letter-spacing: 1px;
+  height: 100%;
+  width: 100%;
+  padding-top: 25px;
+  font-weight: 300;
+  font-size: 110%;
+  cursor: pointer;
+}
+
+a.navA:hover,
+a.navA:active,
+a.navA:focus {
+  border-bottom: 3px solid #f3ebe5;
+  text-decoration: none;
+}
+
+.active {
+  border-bottom: 3px solid #f3ebe5;
+}
+
+.homeBody {
+  height: 100%;
+  background-color: rgba(165,83,23,.2);
+  /*border: 2px solid red;*/
+}
+
+.logo {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  top: 35%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+
+.getInTouch {
+  height: 40px;
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.getInTouch button{
+  height: 100%;
+  border-radius: 5px;
+  background-color: rgba(35,14,0,.9);
+  border: 2px solid rgba(35,14,0,.1);
+  color: #f3ebe5;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 120%;
+}
+
+.getInTouch button:hover {
+  background-color: rgba(35,14,0,1);
+}
+
+.getInTouch button:active {
+  border: 1px inset #f3ebe5;
+  background-color: rgba(35,14,0,1);
+
+}
+
+.getInTouch button:active,
+.getInTouch button:focus {
+  outline: 0;
+  font-size: 120%;
+}
+
+.socialBtns {
+  height: 70px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+}
+
+.blur {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(243,235,229,8);
+  filter: blur(80px);
+  -webkit-filter: blur(80px); /* Prefixed CSS3 blur filters */
+	-moz-filter: blur(80px);
+	-o-filter: blur(80px);
+	-ms-filter: blur(80px);
+}
+
+
+a.socialA {
+  display: block;
+  height: 100%;
+  font-size: 50px;
+}
+
+i {
+  font-size: 50px;
+  display: inline;
+  color: #f5f5f5;
+}
+
+i:hover {
+  font-size: 60px;
+}
+
+.fa.fa-facebook-square {
+  color: #3b5998;
+}
+.fa.fa-pinterest {
+  color: #bd081c;
+}
+.fa.fa-instagram {
+  color: #fbad50;
+}

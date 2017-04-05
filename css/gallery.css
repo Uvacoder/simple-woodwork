@@ -1,0 +1,13 @@
+main.gallery {
+  height: 100vh;
+  background-image: url("../media/background-min.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+div.galleryBody {
+  height: 100%;
+  background-color: rgba(165,83,23,.2);
+}

@@ -1,0 +1,13 @@
+div.blogBody {
+  height: 100vh;
+  background-color: #fff1e7;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.blogMain {
+  height: 80%;
+  border: 1px solid black;
+}

@@ -1,0 +1,14 @@
+/*ABOUT SECTION*/
+main.about {
+  height: 100vh;
+  background-image: url("../media/background2-min.png");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+div.aboutBody {
+  height: 100%;
+  background-color: rgba(165,83,23,.2);
+}
