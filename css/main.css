@@ -84,8 +84,9 @@ a.navA:focus {
   text-decoration: none;
 }
 
-.active {
+a.active {
   border-bottom: 3px solid #d45500;
+  color: #d45500;
 }
 
 a.navA.active:hover {
