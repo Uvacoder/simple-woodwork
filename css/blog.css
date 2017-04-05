@@ -1,6 +1,6 @@
 div.blogBody {
   height: 100vh;
-  background-color: #fff1e7;
+  background-color: rgba(128, 103, 85, .8);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
