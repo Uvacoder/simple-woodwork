@@ -10,4 +10,42 @@ main.gallery {
 div.galleryBody {
   height: 100%;
   background-color: rgba(165,83,23,.25);
+  overflow-y: auto;
+}
+
+h1.pageTitle {
+  text-align: center;
+  margin-top: 100px;
+  color: #f3ebe5;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  border-bottom: 2px solid rgba(35,14,0,.9);
+  padding-bottom: 5px;
+}
+
+div.gallerySection {
+  height: auto%;
+  margin-top: 10px;
+  background-color: rgba(35,14,0,.4);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+div.photoDir {
+  height: auto;
+  margin-bottom: 30px;
+}
+
+img.photoImage {
+  width: 100%;
+}
+
+h3.imageTitle,
+p.imageDesc {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #f3ebe5;
+  font-weight: 300;
+  letter-spacing: 1px;
 }

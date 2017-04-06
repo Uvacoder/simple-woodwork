@@ -3,7 +3,17 @@
     <main class="gallery">
       <header-directive></header-directive>
       <div class="galleryBody col-sm-12">
-
+        <h1 class="pageTitle col-sm-10 col-sm-offset-1">Tables And Doors Gallery</h1>
+        <div class="gallerySection col-sm-10 col-sm-offset-1">
+          <div class="photoDir col-sm-12" ng-repeat="item in gc.gallery">
+            <photo-directive
+              image="item.image"
+              description="item.description"
+              title="item.title"
+              alternate="item.alt">
+            </photo-directive>
+          </div>
+        </div>
       </div>
     </main>
   </div>
